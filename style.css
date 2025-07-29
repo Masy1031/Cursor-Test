@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fb;
+  color: #222;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hero {
+  background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+  color: #fff;
+  padding: 80px 0 60px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.cta-btn {
+  display: inline-block;
+  background: #fff;
+  color: #fc5c7d;
+  font-weight: 700;
+  padding: 0.9rem 2.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.cta-btn:hover {
+  background: #fc5c7d;
+  color: #fff;
+}
+
+section {
+  padding: 60px 0 40px 0;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.features-list, .examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.feature-item, .example-item {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 2rem 1.5rem;
+  flex: 1 1 220px;
+  max-width: 260px;
+  min-width: 180px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.feature-item:hover, .example-item:hover {
+  transform: translateY(-6px) scale(1.03);
+}
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.howto-steps {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem 1.5rem;
+  font-size: 1.1rem;
+}
+.howto-steps li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.tips-list {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem 1.5rem;
+  font-size: 1.1rem;
+}
+.tips-list li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .features-list, .examples-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-item, .example-item {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 40px 0 24px 0;
+  }
+  .howto-steps, .tips-list {
+    padding: 1.2rem 0.7rem;
+    font-size: 1rem;
+  }
+} 
