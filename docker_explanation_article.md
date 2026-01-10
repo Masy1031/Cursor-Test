@@ -61,7 +61,9 @@ Dockerがもたらす変化を、新人エンジニアBさんの1日で比較し
 
 たとえるなら、**「一軒家を丸ごと建てる」のが仮想マシン**で、**「アパートの一室を借りる」のがDocker**です。
 
+![Docker vs Virtual Machine](images/docker_vs_vm.png)
 
+*(画像出典: [Qiita - Dockerについてまとめてみる](https://qiita.com/yoshii_0820/items/cf90a422201b19e99557))*
 *(※上記は仕組みを簡略化したイメージ図です)*
 
 *   #### 仮想マシン（一軒家を丸ごと建てる方式）
